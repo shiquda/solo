@@ -54,6 +54,9 @@
                             </span>
                             </#list>
                             <time>${article.articleUpdateDate?string("yyyy-MM-dd")}</time>
+                            <div>
+                                <span data-uvstaturl="${servePath}${article.articlePermalink}">0</span> views and <a href="#b3logsolocomments"><span data-uvstatcmt="${article.oId}">0</span> comments</a>
+                            <\div>
                         </section>
                     </header>
                     <section class="post-content post-content--article vditor-reset">
